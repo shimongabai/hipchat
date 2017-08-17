@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="ah_override_default_fields" label="Override Default Fields" language="en" table="var__m_sys_hub_action_input_05b44d367f200300666bdd620efa918c">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ah_override_default_fields</element>
+            <help/>
+            <hint/>
+            <label>Override Default Fields</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_05b44d367f200300666bdd620efa918c</name>
+            <plural>Override Default Fields</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-16 16:48:43</sys_created_on>
+            <sys_id>15b44d367f200300666bdd620efa91be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Override Default Fields</sys_name>
+            <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_05b44d367f200300666bdd620efa918c_ah_override_default_fields_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-16 16:48:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

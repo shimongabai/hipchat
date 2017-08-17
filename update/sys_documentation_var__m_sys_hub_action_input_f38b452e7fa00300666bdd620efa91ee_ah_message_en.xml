@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="ah_message" label="Message" language="en" table="var__m_sys_hub_action_input_f38b452e7fa00300666bdd620efa91ee">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ah_message</element>
+            <help/>
+            <hint/>
+            <label>Message</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_f38b452e7fa00300666bdd620efa91ee</name>
+            <plural>Message</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-15 22:40:10</sys_created_on>
+            <sys_id>7f8b852e7fa00300666bdd620efa910a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Message</sys_name>
+            <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f38b452e7fa00300666bdd620efa91ee_ah_message_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-15 22:40:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

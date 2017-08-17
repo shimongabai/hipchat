@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <description>TODO: add desc</description>
+        <label_cache>[{"name":"{{action.ah_auth_token}}","label":"action➛Auth Token","type":"action","ref":""},{"name":"{{action.ah_message}}","label":"action➛Message","type":"action","ref":""},{"name":"{{action.ah_room_notification_url}}","label":"action➛Room Notification URL","type":"action","ref":""},{"name":"{{step[ac227337-e56d-4627-8721-250273690e21].status_code}}","label":"step➛Post Message➛Status code","type":"step","ref":""},{"name":"{{step[ac227337-e56d-4627-8721-250273690e21].error_message}}","label":"step➛Post Message➛Error message","type":"step","ref":""}]</label_cache>
+        <latest_snapshot display_value="Post Message">dd0c19b67f200300666bdd620efa91e5</latest_snapshot>
+        <name>Post Message</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 18:25:41</sys_created_on>
+        <sys_id>f1ea91b67f200300666bdd620efa911b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Post Message</sys_name>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_f1ea91b67f200300666bdd620efa911b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 18:30:34</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=f1ea91b67f200300666bdd620efa911b"/>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Created or Updated_1.current.number","label":"Trigger➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"}]</label_cache>
+        <name>HipChat - Sample</name>
+        <parent_flow display_value="HipChat - Sample">ddbf4cdc7f240300666bdd620efa911c</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-11 21:39:12</sys_created_on>
+        <sys_id>af379c117fa00300666bdd620efa913c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HipChat - Sample</sys_name>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_af379c117fa00300666bdd620efa913c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-11 21:39:12</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

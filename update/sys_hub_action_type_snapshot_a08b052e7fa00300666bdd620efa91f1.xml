@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_auth_token}}","label":"action➛Auth Token","type":"action","ref":""},{"name":"{{action.ah_incident}}","label":"action➛Incident","type":"action","ref":"incident"},{"name":"{{action.ah_additional_message}}","label":"action➛Additional Message ","type":"action","ref":""},{"name":"{{action.ah_room_notification_url}}","label":"action➛Room Notification URL","type":"action","ref":""},{"name":"{{action.ah_override_default_fields}}","label":"action➛Override Default Fields","type":"action","ref":""},{"name":"{{step[29e25199-cca1-4021-9240-0dc755494fc3].m}}","label":"step➛Build Payload➛m","type":"step","ref":""},{"name":"{{step[29e25199-cca1-4021-9240-0dc755494fc3].me}}","label":"step➛Build Payload➛me","type":"step","ref":""},{"name":"{{step[29e25199-cca1-4021-9240-0dc755494fc3].mes}}","label":"step➛Build Payload➛mes","type":"step","ref":""},{"name":"{{step[29e25199-cca1-4021-9240-0dc755494fc3].mess}}","label":"step➛Build Payload➛mess","type":"step","ref":""},{"name":"{{step[29e25199-cca1-4021-9240-0dc755494fc3].messa}}","label":"step➛Build Payload➛messa","type":"step","ref":""},{"name":"{{step[29e25199-cca1-4021-9240-0dc755494fc3].messag}}","label":"step➛Build Payload➛messag","type":"step","ref":""},{"name":"{{step[29e25199-cca1-4021-9240-0dc755494fc3].message}}","label":"step➛Build Payload➛message","type":"step","ref":""}]</label_cache>
+        <name>Post Incident Details</name>
+        <outputs/>
+        <parent_action display_value="Post Incident Details2">31c4cd547f200300666bdd620efa91e1</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 22:39:57</sys_created_on>
+        <sys_id>a08b052e7fa00300666bdd620efa91f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Post Incident Details</sys_name>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_a08b052e7fa00300666bdd620efa91f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 22:39:57</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=a08b052e7fa00300666bdd620efa91f1"/>
+</record_update>

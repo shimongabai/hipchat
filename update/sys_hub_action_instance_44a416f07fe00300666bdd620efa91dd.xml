@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="HipChat - Send Change Details">d965a6f47fe00300666bdd620efa91fe</action_type>
+        <comment/>
+        <compiled_snapshot display_value="HipChat - Send Change Details">d965a6f47fe00300666bdd620efa91fe</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HipChat - Test Post Incident Details">54e6c9947f200300666bdd620efa91fa</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:30:02</sys_created_on>
+        <sys_id>44a416f07fe00300666bdd620efa91dd</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_44a416f07fe00300666bdd620efa91dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 18:43:41</sys_updated_on>
+        <ui_id>0e7de253-1ddb-4ff0-a7a4-b72a734170a3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=44a416f07fe00300666bdd620efa91dd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:42:24</sys_created_on>
+        <sys_id>017752347fe00300666bdd620efa91d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:42:24</sys_updated_on>
+        <value>Sncautomationhub</value>
+        <variable display_value="">2e6752347fe00300666bdd620efa912a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:30:03</sys_created_on>
+        <sys_id>04a456f07fe00300666bdd620efa915e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:30:03</sys_updated_on>
+        <value>TWxfpV1GjR1IUMtiHcyl14uq9iZ07DO5my0Og3dR</value>
+        <variable display_value="">0f64d2f07fe00300666bdd620efa9110</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:30:02</sys_created_on>
+        <sys_id>0ca456f07fe00300666bdd620efa9151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:30:02</sys_updated_on>
+        <value>TWxfpV1GjR1IUMtiHcyl14uq9iZ07DO5my0Og3dR</value>
+        <variable display_value="">56811ab07fe00300666bdd620efa917f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 18:43:38</sys_created_on>
+        <sys_id>1a752af47fe00300666bdd620efa91b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 18:43:38</sys_updated_on>
+        <value>0ecd7552db252200a6a2b31be0b8f5e6</value>
+        <variable display_value="">1165e6f47fe00300666bdd620efa9119</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:31:26</sys_created_on>
+        <sys_id>24f4d6f07fe00300666bdd620efa91ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:31:26</sys_updated_on>
+        <value>TWxfpV1GjR1IUMtiHcyl14uq9iZ07DO5my0Og3dR</value>
+        <variable display_value="">e6e4d6f07fe00300666bdd620efa916f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:30:03</sys_created_on>
+        <sys_id>40a456f07fe00300666bdd620efa915e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:30:03</sys_updated_on>
+        <value>Here is you CR</value>
+        <variable display_value="">5764d2f07fe00300666bdd620efa9128</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:42:24</sys_created_on>
+        <sys_id>497752347fe00300666bdd620efa91d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:42:24</sys_updated_on>
+        <value>TWxfpV1GjR1IUMtiHcyl14uq9iZ07DO5my0Og3dR</value>
+        <variable display_value="">b66752347fe00300666bdd620efa9137</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 18:43:38</sys_created_on>
+        <sys_id>56752af47fe00300666bdd620efa91b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 18:43:38</sys_updated_on>
+        <value>Sncautomationhub</value>
+        <variable display_value="">d165e6f47fe00300666bdd620efa9101</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:31:26</sys_created_on>
+        <sys_id>60f4d6f07fe00300666bdd620efa91ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:31:26</sys_updated_on>
+        <value>Here is you CR</value>
+        <variable display_value="">22e4d6f07fe00300666bdd620efa9187</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:30:02</sys_created_on>
+        <sys_id>84a456f07fe00300666bdd620efa9151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:30:02</sys_updated_on>
+        <value>0ecd7552db252200a6a2b31be0b8f5e6</value>
+        <variable display_value="">5e811ab07fe00300666bdd620efa918a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:42:24</sys_created_on>
+        <sys_id>857752347fe00300666bdd620efa91d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 18:43:38</sys_updated_on>
+        <value>Here is you Change Request,</value>
+        <variable display_value="">326752347fe00300666bdd620efa914f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:30:03</sys_created_on>
+        <sys_id>8ca456f07fe00300666bdd620efa915d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:30:03</sys_updated_on>
+        <value>0ecd7552db252200a6a2b31be0b8f5e6</value>
+        <variable display_value="">0764d2f07fe00300666bdd620efa911c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:31:26</sys_created_on>
+        <sys_id>acf4d6f07fe00300666bdd620efa91ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:31:26</sys_updated_on>
+        <value>0ecd7552db252200a6a2b31be0b8f5e6</value>
+        <variable display_value="">eee4d6f07fe00300666bdd620efa917a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:30:02</sys_created_on>
+        <sys_id>c0a456f07fe00300666bdd620efa9151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:30:02</sys_updated_on>
+        <value>Sncautomationhub</value>
+        <variable display_value="">5e811ab07fe00300666bdd620efa9172</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:42:24</sys_created_on>
+        <sys_id>c17752347fe00300666bdd620efa91d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:42:24</sys_updated_on>
+        <value>0ecd7552db252200a6a2b31be0b8f5e6</value>
+        <variable display_value="">be6752347fe00300666bdd620efa9142</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:30:03</sys_created_on>
+        <sys_id>c8a456f07fe00300666bdd620efa915d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:30:03</sys_updated_on>
+        <value>Sncautomationhub</value>
+        <variable display_value="">c764d2f07fe00300666bdd620efa9104</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 18:46:09</sys_created_on>
+        <sys_id>cb06eaf47fe00300666bdd620efa918a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 18:46:09</sys_updated_on>
+        <value>Here is your change request</value>
+        <variable display_value="">5165e6f47fe00300666bdd620efa9125</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 18:43:38</sys_created_on>
+        <sys_id>da752af47fe00300666bdd620efa91b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 18:43:38</sys_updated_on>
+        <value>TWxfpV1GjR1IUMtiHcyl14uq9iZ07DO5my0Og3dR</value>
+        <variable display_value="">1965e6f47fe00300666bdd620efa910d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44a416f07fe00300666bdd620efa91dd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:31:26</sys_created_on>
+        <sys_id>e8f4d6f07fe00300666bdd620efa91ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:31:26</sys_updated_on>
+        <value>Sncautomationhub</value>
+        <variable display_value="">92e4d6f07fe00300666bdd620efa9163</variable>
+    </sys_variable_value>
+</record_update>

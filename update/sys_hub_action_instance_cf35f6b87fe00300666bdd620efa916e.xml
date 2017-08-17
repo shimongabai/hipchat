@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Problem Details">cf55a6f47fe00300666bdd620efa9177</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Send Problem Details">cf55a6f47fe00300666bdd620efa9177</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HipChat - Test Post Incident Details">0335f6b87fe00300666bdd620efa916a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 19:52:30</sys_created_on>
+        <sys_id>cf35f6b87fe00300666bdd620efa916e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_cf35f6b87fe00300666bdd620efa916e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 19:52:30</sys_updated_on>
+        <ui_id>016b3eff-7726-4e6e-9905-43941c404598</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cf35f6b87fe00300666bdd620efa916e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cf35f6b87fe00300666bdd620efa916e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 19:52:30</sys_created_on>
+        <sys_id>0f35f6b87fe00300666bdd620efa918a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 19:52:30</sys_updated_on>
+        <value>Sncautomationhub</value>
+        <variable display_value="">c755a6f47fe00300666bdd620efa917a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cf35f6b87fe00300666bdd620efa916e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 19:52:30</sys_created_on>
+        <sys_id>4735f6b87fe00300666bdd620efa918b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 19:52:30</sys_updated_on>
+        <value>9d3d3b85c61122870138f3d1472bba01</value>
+        <variable display_value="">0755a6f47fe00300666bdd620efa9192</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cf35f6b87fe00300666bdd620efa916e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 19:52:30</sys_created_on>
+        <sys_id>8335f6b87fe00300666bdd620efa918b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 19:52:30</sys_updated_on>
+        <value>Here is you problem</value>
+        <variable display_value="">8755a6f47fe00300666bdd620efa919e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cf35f6b87fe00300666bdd620efa916e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 19:52:30</sys_created_on>
+        <sys_id>cf35f6b87fe00300666bdd620efa918a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 19:52:30</sys_updated_on>
+        <value>TWxfpV1GjR1IUMtiHcyl14uq9iZ07DO5my0Og3dR</value>
+        <variable display_value="">0f55a6f47fe00300666bdd620efa9186</variable>
+    </sys_variable_value>
+</record_update>

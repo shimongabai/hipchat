@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[]</label_cache>
+        <latest_snapshot display_value="HipChat - Test Post Incident Details">7bdacd727f200300666bdd620efa91d4</latest_snapshot>
+        <name>HipChat - Test Post Incident Details</name>
+        <show_draft_actions>false</show_draft_actions>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-08 22:33:24</sys_created_on>
+        <sys_id>54e6c9947f200300666bdd620efa91fa</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>HipChat - Test Post Incident Details</sys_name>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_flow_54e6c9947f200300666bdd620efa91fa</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-08-16 17:15:40</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

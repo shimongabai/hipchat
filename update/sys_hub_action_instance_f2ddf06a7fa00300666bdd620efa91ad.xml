@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Incident Details">8bcb086e7f600300666bdd620efa91de</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Send Incident Details">8bcb086e7f600300666bdd620efa91de</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HipChat - Sample">f2ddb06a7fa00300666bdd620efa918a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 21:40:18</sys_created_on>
+        <sys_id>f2ddf06a7fa00300666bdd620efa91ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_f2ddf06a7fa00300666bdd620efa91ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 21:40:18</sys_updated_on>
+        <ui_id>0a18c520-f3b5-4289-8e3f-33398c26df71</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f2ddf06a7fa00300666bdd620efa91ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2ddf06a7fa00300666bdd620efa91ad</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 21:40:18</sys_created_on>
+        <sys_id>3eddf06a7fa00300666bdd620efa91b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 21:40:18</sys_updated_on>
+        <value>ef43c6d40a0a0b5700c77f9bf387afe3</value>
+        <variable display_value="">4fcb086e7f600300666bdd620efa91f8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2ddf06a7fa00300666bdd620efa91ad</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 21:40:18</sys_created_on>
+        <sys_id>7addf06a7fa00300666bdd620efa91b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 21:40:18</sys_updated_on>
+        <value>TWxfpV1GjR1IUMtiHcyl14uq9iZ07DO5my0Og3dR</value>
+        <variable display_value="">0bcb086e7f600300666bdd620efa91ed</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2ddf06a7fa00300666bdd620efa91ad</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 21:40:18</sys_created_on>
+        <sys_id>b2ddf06a7fa00300666bdd620efa91b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 21:40:18</sys_updated_on>
+        <value>short_description,priority,number</value>
+        <variable display_value="">83cb486e7f600300666bdd620efa9110</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2ddf06a7fa00300666bdd620efa91ad</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 21:40:18</sys_created_on>
+        <sys_id>b6ddf06a7fa00300666bdd620efa91b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 21:40:18</sys_updated_on>
+        <value>Sncautomationhub</value>
+        <variable display_value="">83cb086e7f600300666bdd620efa91e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2ddf06a7fa00300666bdd620efa91ad</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 21:40:18</sys_created_on>
+        <sys_id>feddf06a7fa00300666bdd620efa91b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 21:40:18</sys_updated_on>
+        <value>Here you go,</value>
+        <variable display_value="">4fcb486e7f600300666bdd620efa9104</variable>
+    </sys_variable_value>
+</record_update>

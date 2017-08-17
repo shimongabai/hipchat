@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>sn_hipchat_ah.HipChatNotificationUtils</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>HipChatNotificationUtils</name>
+        <script><![CDATA[var HipChatNotificationUtils = Class.create();
+
+HipChatNotificationUtils.prototype = {
+    initialize: function(){
+    },
+	
+    /**
+     * Get incident details as a text message for HipChat
+     * @param GlideRecord gr (incident, problem, change_request)
+     * @return String representation of the record
+     */
+    getTaskDetails: function(gr, fields, msg){
+		if (gr == null || !gr.isValid())
+			return "Error: Record is missing or invalid";
+		
+		var recordLink = gr.getLink();
+		var url = gs.getProperty('glide.servlet.uri') + recordLink; 
+
+		var resp = "<b>" + gr.number + "</b><br/>";
+		
+		resp += gr.short_description + "<br/>";
+
+		resp += "<table>";
+
+		var fieldList = this._getFields(gr.getTableName(), fields).split(",");
+		for (var i=0; i < fieldList.length; i++) {
+			resp += this._getTableRow(gr.getElement(fieldList[i]));
+		}
+		
+		resp += "</table>";			
+		
+		resp += "<br/>";
+		
+		resp += msg + "<br/>";
+
+		resp += "<a href='" + url + "'><b>View " + gr.getTableName()+ " in ServiceNow</b></a><br/>";
+
+		return resp;
+    }, 
+	
+	_getFields: function (tablename, fields) {
+		if (fields && fields.length > 0) 
+			return fields;
+			
+		if (tablename == "incident")
+			return "state,priority,assignment_group";
+		else if (tablename == "problem")
+			return "state,priority,assigned_to";
+		else if (tablename == "change_request")
+			return "state,priority,assigned_to,assignment_group";
+		
+		return "";
+	},
+	
+	_getTableRow: function (el1, el2) {
+		if (!el1)
+			return "";
+		
+		resp = "<tr>";
+		if (!el2) {
+			resp += "<td colspan='2'><b>"+el1.getLabel()+"</b></td>";
+		}else{
+			resp += "<td><b>"+el1.getLabel()+"</b></td>";
+			resp += "<td><b>"+el2.getLabel()+"</b></td>";
+		}
+
+		resp += "</tr>";
+		resp += "<tr>";
+
+		if (!el2) {
+			resp += "<td colspan='2'>"+el1.getDisplayValue()+"</td>";
+		}else{
+			resp += "<td>"+el1.getDisplayValue()+"</td>";
+			resp += "<td>"+el2.getDisplayValue()+"</td>";
+		}
+
+		resp += "</tr>";
+	
+		resp += "<tr><td></td><td></td></tr>";//EMPTY ROW
+
+		return resp;
+	}
+
+};
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-09 17:53:37</sys_created_on>
+        <sys_id>6b6059e07f600300666bdd620efa91d1</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>HipChatNotificationUtils</sys_name>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_script_include_6b6059e07f600300666bdd620efa91d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 18:39:08</sys_updated_on>
+    </sys_script_include>
+</record_update>

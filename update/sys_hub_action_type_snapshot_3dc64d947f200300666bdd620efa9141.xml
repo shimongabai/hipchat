@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_auth_token}}","label":"action➛auth_token","type":"action","ref":""},{"name":"{{action.ah_room_name}}","label":"action➛room_name","type":"action","ref":""},{"name":"{{action.ah_incident}}","label":"action➛Incident","type":"action","ref":""},{"name":"{{action.ah_incident.number}}","label":"action➛Incident➛Number","type":"action","ref":""},{"name":"{{action.ah_incident.short_description}}","label":"action➛Incident➛Short description","type":"action","ref":""},{"name":"{{action.ah_incident.priority}}","label":"action➛Incident➛Priority","type":"action","ref":""},{"name":"{{action.ah_incident.assigned_to}}","label":"action➛Incident➛Assigned to","type":"action","ref":"sys_user"}]</label_cache>
+        <name>HipChat - Post Incident Details</name>
+        <outputs/>
+        <parent_action display_value="Post Incident Details2">31c4cd547f200300666bdd620efa91e1</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-08 22:32:57</sys_created_on>
+        <sys_id>3dc64d947f200300666bdd620efa9141</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HipChat - Post Incident Details</sys_name>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_3dc64d947f200300666bdd620efa9141</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-08 22:32:57</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=3dc64d947f200300666bdd620efa9141"/>
+</record_update>

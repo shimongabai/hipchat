@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <description>TODO: Add desc</description>
+        <label_cache>[{"name":"{{action.ah_auth_token}}","label":"action➛Auth Token","type":"action","ref":""},{"name":"{{action.ah_additional_message}}","label":"action➛Additional Message","type":"action","ref":""},{"name":"{{action.ah_override_default_fields}}","label":"action➛Override Default Fields","type":"action","ref":""},{"name":"{{action.ah_room_notification_url}}","label":"action➛Room Notification URL","type":"action","ref":""},{"name":"{{action.ah_change_request}}","label":"action➛Change Request","type":"action","ref":"change_request"},{"name":"{{step[3cdc78bf-50d8-415a-8096-e373eee3b9fe].m}}","label":"step➛Build Payload➛m","type":"step","ref":""},{"name":"{{step[3cdc78bf-50d8-415a-8096-e373eee3b9fe].me}}","label":"step➛Build Payload➛me","type":"step","ref":""},{"name":"{{step[3cdc78bf-50d8-415a-8096-e373eee3b9fe].mes}}","label":"step➛Build Payload➛mes","type":"step","ref":""},{"name":"{{step[3cdc78bf-50d8-415a-8096-e373eee3b9fe].mess}}","label":"step➛Build Payload➛mess","type":"step","ref":""},{"name":"{{step[3cdc78bf-50d8-415a-8096-e373eee3b9fe].messa}}","label":"step➛Build Payload➛messa","type":"step","ref":""},{"name":"{{step[3cdc78bf-50d8-415a-8096-e373eee3b9fe].messag}}","label":"step➛Build Payload➛messag","type":"step","ref":""},{"name":"{{step[3cdc78bf-50d8-415a-8096-e373eee3b9fe].message}}","label":"step➛Build Payload➛message","type":"step","ref":""},{"name":"{{step[9ad63a58-8d5d-450b-83f1-2e47265c446d].status_code}}","label":"step➛Post Message➛Status code","type":"step","ref":""},{"name":"{{step[9ad63a58-8d5d-450b-83f1-2e47265c446d].error_message}}","label":"step➛Post Message➛Error message","type":"step","ref":""}]</label_cache>
+        <latest_snapshot display_value="Post Change Details">ee0999767f200300666bdd620efa91e8</latest_snapshot>
+        <name>Post Change Details</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 18:08:39</sys_created_on>
+        <sys_id>900791767f200300666bdd620efa91c4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Post Change Details</sys_name>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_900791767f200300666bdd620efa91c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 18:17:34</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=900791767f200300666bdd620efa91c4"/>
+</record_update>

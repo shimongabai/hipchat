@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Post Problem Details">bff749767f200300666bdd620efa91f1</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Post Problem Details">bff749767f200300666bdd620efa91f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HipChat - Sample">0cd88d767f200300666bdd620efa918a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 17:06:39</sys_created_on>
+        <sys_id>44d88d767f200300666bdd620efa919e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_44d88d767f200300666bdd620efa919e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 17:06:39</sys_updated_on>
+        <ui_id>7646de1c-bb73-4400-bac8-4119015434e8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=44d88d767f200300666bdd620efa919e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44d88d767f200300666bdd620efa919e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 17:06:39</sys_created_on>
+        <sys_id>00d88d767f200300666bdd620efa91a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 17:06:39</sys_updated_on>
+        <value>9d3d3b85c61122870138f3d1472bba01</value>
+        <variable display_value="">bbf789767f200300666bdd620efa9117</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44d88d767f200300666bdd620efa919e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 17:06:39</sys_created_on>
+        <sys_id>4cd88d767f200300666bdd620efa91a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 17:06:39</sys_updated_on>
+        <value>here it is</value>
+        <variable display_value="">37f789767f200300666bdd620efa9123</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44d88d767f200300666bdd620efa919e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 17:06:39</sys_created_on>
+        <sys_id>88d88d767f200300666bdd620efa91a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 17:06:39</sys_updated_on>
+        <value>TWxfpV1GjR1IUMtiHcyl14uq9iZ07DO5my0Og3dR</value>
+        <variable display_value="">bbf789767f200300666bdd620efa910c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44d88d767f200300666bdd620efa919e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 17:06:39</sys_created_on>
+        <sys_id>c4d88d767f200300666bdd620efa91a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 17:06:39</sys_updated_on>
+        <value>https://api.hipchat.com/v2/room/Sncautomationhub/notification</value>
+        <variable display_value="">b7f749767f200300666bdd620efa91f4</variable>
+    </sys_variable_value>
+</record_update>

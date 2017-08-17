@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="HipChat - Send Message">7ab0801d7f600300666bdd620efa91e7</action>
+        <cid>7994c63e-242e-4190-bdc2-89c4085958d6</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-11 20:00:50</sys_created_on>
+        <sys_id>b2b0c01d7f600300666bdd620efa9129</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_step_instance_b2b0c01d7f600300666bdd620efa9129</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-11 20:00:51</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b2b0c01d7f600300666bdd620efa9129"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b2b0c01d7f600300666bdd620efa9129</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-11 20:00:51</sys_created_on>
+        <sys_id>8bb0c01d7f600300666bdd620efa9138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-11 20:00:51</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	if(inputs.status_code != ‘200’){
+		var errorMsg = 'Error occured while posting HipChat message (status code: ' + inputs.status_code + ')' ;
+		if(inputs.error_message)
+			errorMsg = errorMsg + “, error message: ” + inputs.error_message + “)”;
+
+      gs.info(errorMsg);
+      throw errorMsg;
+   }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b2b0c01d7f600300666bdd620efa9129"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_message</field>
+        <id>b2b0c01d7f600300666bdd620efa9129</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-11 20:00:51</sys_created_on>
+        <sys_id>07b0c01d7f600300666bdd620efa9139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-11 20:00:51</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b2b0c01d7f600300666bdd620efa9129</table>
+        <value>{{step[f69f0bcd-5fb6-41bd-b9e9-f99e096f3a5d].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>b2b0c01d7f600300666bdd620efa9129</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-11 20:00:51</sys_created_on>
+        <sys_id>0bb0c01d7f600300666bdd620efa9138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-11 20:00:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>b2b0c01d7f600300666bdd620efa9129</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-11 20:00:51</sys_created_on>
+        <sys_id>c7b0c01d7f600300666bdd620efa9139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-11 20:00:51</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b2b0c01d7f600300666bdd620efa9129</table>
+        <value>{{step[f69f0bcd-5fb6-41bd-b9e9-f99e096f3a5d].status_code}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Post Message">dd0c19b67f200300666bdd620efa91e5</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Post Message">dd0c19b67f200300666bdd620efa91e5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HipChat - Sample">a35c99b67f200300666bdd620efa91a7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 18:32:05</sys_created_on>
+        <sys_id>e35c99b67f200300666bdd620efa91ae</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_e35c99b67f200300666bdd620efa91ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 18:32:05</sys_updated_on>
+        <ui_id>d81f8f4f-00e9-45a3-94bf-a121cebe2e38</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e35c99b67f200300666bdd620efa91ae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e35c99b67f200300666bdd620efa91ae</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 18:32:05</sys_created_on>
+        <sys_id>235c99b67f200300666bdd620efa91b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 18:32:05</sys_updated_on>
+        <value>Hee ljfdklfj fadksjfk la</value>
+        <variable display_value="">5d0c59b67f200300666bdd620efa9124</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e35c99b67f200300666bdd620efa91ae</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 18:32:05</sys_created_on>
+        <sys_id>a75c99b67f200300666bdd620efa91b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 18:32:05</sys_updated_on>
+        <value>TWxfpV1GjR1IUMtiHcyl14uq9iZ07DO5my0Og3dR</value>
+        <variable display_value="">950c19b67f200300666bdd620efa91f4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e35c99b67f200300666bdd620efa91ae</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 18:32:05</sys_created_on>
+        <sys_id>e35c99b67f200300666bdd620efa91b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 18:32:05</sys_updated_on>
+        <value>https://api.hipchat.com/v2/room/Sncautomationhub/notification</value>
+        <variable display_value="">d50c19b67f200300666bdd620efa91e8</variable>
+    </sys_variable_value>
+</record_update>

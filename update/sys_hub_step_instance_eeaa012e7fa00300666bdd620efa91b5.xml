@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Post Incident Details">daaa012e7fa00300666bdd620efa916b</action>
+        <cid>29e25199-cca1-4021-9240-0dc755494fc3</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Build Payload</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 22:36:16</sys_created_on>
+        <sys_id>eeaa012e7fa00300666bdd620efa91b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Build Payload</sys_name>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_step_instance_eeaa012e7fa00300666bdd620efa91b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 22:36:16</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eeaa012e7fa00300666bdd620efa91b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>eeaa012e7fa00300666bdd620efa91b5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 22:36:16</sys_created_on>
+        <sys_id>a6aa012e7fa00300666bdd620efa91da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 22:36:16</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	outputs.message = new HipChatNotificationUtils().getTaskDetails(inputs.incident, inputs.fields, inputs.additional_message);
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eeaa012e7fa00300666bdd620efa91b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>additional_message</field>
+        <id>eeaa012e7fa00300666bdd620efa91b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 22:36:16</sys_created_on>
+        <sys_id>a6aa012e7fa00300666bdd620efa91db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 22:36:16</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_eeaa012e7fa00300666bdd620efa91b5</table>
+        <value>{{action.ah_additional_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>eeaa012e7fa00300666bdd620efa91b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 22:36:16</sys_created_on>
+        <sys_id>22aa012e7fa00300666bdd620efa91db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 22:36:16</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_eeaa012e7fa00300666bdd620efa91b5</table>
+        <value>{{action.ah_override_default_fields}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>incident</field>
+        <id>eeaa012e7fa00300666bdd620efa91b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 22:36:16</sys_created_on>
+        <sys_id>e2aa012e7fa00300666bdd620efa91db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 22:36:16</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_eeaa012e7fa00300666bdd620efa91b5</table>
+        <value>{{action.ah_incident}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>eeaa012e7fa00300666bdd620efa91b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-15 22:36:16</sys_created_on>
+        <sys_id>26aa012e7fa00300666bdd620efa91da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-15 22:36:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

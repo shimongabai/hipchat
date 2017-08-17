@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description>TODO: add description here</description>
+        <label_cache>[{"name":"{{action.ah_auth_token}}","label":"action➛Auth Token","type":"action","ref":""},{"name":"{{action.ah_additional_message}}","label":"action➛Additional Message","type":"action","ref":""},{"name":"{{action.ah_override_default_fields}}","label":"action➛Override Default Fields","type":"action","ref":""},{"name":"{{action.ah_room_notification_url}}","label":"action➛Room Notification URL","type":"action","ref":""},{"name":"{{action.ah_problem}}","label":"action➛Problem","type":"action","ref":"problem"},{"name":"{{step[f3cf1b21-46d5-4b87-87d9-f204f5dd1500].status_code}}","label":"step➛Post Message➛Status code","type":"step","ref":""},{"name":"{{step[f3cf1b21-46d5-4b87-87d9-f204f5dd1500].error_message}}","label":"step➛Post Message➛Error message","type":"step","ref":""},{"name":"{{step[dea8ceb1-5040-4d37-9e8d-e49f49888fe9].message}}","label":"step➛Build Payload➛message","type":"step","ref":""}]</label_cache>
+        <name>Post Problem Details</name>
+        <outputs/>
+        <parent_action display_value="Post Problem Details-Good">2c658d367f200300666bdd620efa919f</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 17:39:52</sys_created_on>
+        <sys_id>fe6015f27f200300666bdd620efa9113</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Post Problem Details</sys_name>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_fe6015f27f200300666bdd620efa9113</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 17:39:52</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=fe6015f27f200300666bdd620efa9113"/>
+</record_update>

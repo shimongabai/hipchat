@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="HipChat - Send Change Details">e26752347fe00300666bdd620efa9128</action>
+        <cid>a5e29e5d-a769-47e9-912a-35ad04d1a05b</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:42:15</sys_created_on>
+        <sys_id>436752347fe00300666bdd620efa9170</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="HipChat" source="sn_hipchat_ah">233797f6db9c8300efc57416bf96197c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HipChat">233797f6db9c8300efc57416bf96197c</sys_scope>
+        <sys_update_name>sys_hub_step_instance_436752347fe00300666bdd620efa9170</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:42:16</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=436752347fe00300666bdd620efa9170"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>436752347fe00300666bdd620efa9170</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:42:16</sys_created_on>
+        <sys_id>c36752347fe00300666bdd620efa9194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:42:16</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	outputs["message"] = new HipChatNotificationUtils().getTaskDetails(inputs["changeRequest"], inputs["messageTitle"]);
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=436752347fe00300666bdd620efa9170"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>changeRequest</field>
+        <id>436752347fe00300666bdd620efa9170</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:42:16</sys_created_on>
+        <sys_id>8f6752347fe00300666bdd620efa9194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:42:16</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_436752347fe00300666bdd620efa9170</table>
+        <value>{{action.ah_change_request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>messageTitle</field>
+        <id>436752347fe00300666bdd620efa9170</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:42:16</sys_created_on>
+        <sys_id>436752347fe00300666bdd620efa9195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:42:16</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_436752347fe00300666bdd620efa9170</table>
+        <value>{{action.ah_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>436752347fe00300666bdd620efa9170</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-10 17:42:16</sys_created_on>
+        <sys_id>436752347fe00300666bdd620efa9194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-10 17:42:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
